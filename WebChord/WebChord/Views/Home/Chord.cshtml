@@ -1,0 +1,462 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+
+        .svg-wrapper {
+            display: flex;
+            flex-wrap: nowrap;
+            overflow-x: hidden;
+            gap: 20px;
+            width: fit-content;
+            margin: auto;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        .svg-container {
+            width: 120px;
+            height: 100%;
+            margin: 10px;
+            text-align: center;
+            transition: transform 0.3s ease-in-out;
+        }
+
+            /* .svg-container:hover {
+                transform: scale(1.1);
+            }
+ */
+            .svg-container h2 {
+                font-size: 24px;
+                margin-top: 10px;
+            }
+
+            .svg-container svg {
+                width: 100%;
+              
+            }
+
+            .svg-container .h2 {
+                margin-bottom: 0px !important;
+            }
+
+        .tuning {
+            font-size: 40px !important;
+        }
+
+        h1 {
+            text-align: center; /* Để h1 nằm ở giữa */
+        }
+
+        .chord .speaker-icon {
+            cursor: pointer;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Hợp âm trưởng</h1>
+    <div class="svg-wrapper">
+        <div class="svg-container">
+            <div class="chord">
+                <h2>C</h2>
+                <i class="fas fa-volume-high speaker-icon" alt="Play C chord" onclick="playChord('C')"></i>
+                <audio id="audio-C" src="~/chord-music/C-major-guitar.wav" preload="auto"></audio>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xmlns:svgjs="http://svgjs.com/svgjs" preserveAspectRatio="xMidYMid meet"
+                 viewBox="0 0 400 554.3019927978515">
+
+                <circle r="14.399999999999999" cx="224" cy="24" fill="none" stroke-width="2" stroke="#000000"
+                        class="open-string open-string-3"></circle>
+                <circle r="14.399999999999999" cx="320" cy="24" fill="none" stroke-width="2" stroke="#000000"
+                        class="open-string open-string-5"></circle>
+                <line x1="79" y1="53" x2="321" y2="53" stroke-width="10" stroke="#000000"></line>
+                <line x1="80" y1="142" x2="320" y2="142" stroke-width="2" stroke="#000000"></line>
+                <line x1="80" y1="226" x2="320" y2="226" stroke-width="2" stroke="#000000"></line>
+                <line x1="80" y1="310" x2="320" y2="310" stroke-width="2" stroke="#000000"></line>
+                <line x1="80" y1="394" x2="320" y2="394" stroke-width="2" stroke="#000000"></line>
+                <line x1="80" y1="478" x2="320" y2="478" stroke-width="2" stroke="#000000"></line>
+                <line x1="80" y1="58" x2="80" y2="479" stroke-width="2" stroke="#000000"></line>
+                <line x1="128" y1="58" x2="128" y2="479" stroke-width="2" stroke="#000000"></line>
+                <line x1="176" y1="58" x2="176" y2="479" stroke-width="2" stroke="#000000"></line>
+                <line x1="224" y1="58" x2="224" y2="479" stroke-width="2" stroke="#000000"></line>
+                <line x1="272" y1="58" x2="272" y2="479" stroke-width="2" stroke="#000000"></line>
+                <line x1="320" y1="58" x2="320" y2="479" stroke-width="2" stroke="#000000"></line>
+                <circle r="15.600000000000001" cx="272" cy="100" fill="#000000" stroke-width="0" stroke="#000000"
+                        class="finger finger-string-4 finger-fret-0 finger-string-4-fret-0 finger-circle"></circle>
+                <circle r="15.600000000000001" cx="176" cy="184" fill="#000000" stroke-width="0" stroke="#000000"
+                        class="finger finger-string-2 finger-fret-1 finger-string-2-fret-1 finger-circle"></circle>
+                <circle r="15.600000000000001" cx="80" cy="268" fill="#000000" stroke-width="0" stroke="#000000"
+                        class="finger finger-string-0 finger-fret-2 finger-string-0-fret-2 finger-circle"></circle>
+                <circle r="15.600000000000001" cx="128" cy="268" fill="#000000" stroke-width="0" stroke="#000000"
+                        class="finger finger-string-1 finger-fret-2 finger-string-1-fret-2 finger-circle"></circle>
+                <text x="80"
+                      y="494.8" font-family="Arial, &quot;Helvetica Neue&quot;, Helvetica, sans-serif" font-size="28"
+                      text-anchor="middle" dominant-baseline="central" fill="#000000" class="tuning tuning-0"></text>
+                <text x="128" y="494.8" font-family="Arial, &quot;Helvetica Neue&quot;, Helvetica, sans-serif" font-size="28"
+                      text-anchor="middle" dominant-baseline="central" fill="#000000" class="tuning tuning-1">3</text>
+                <text x="176" y="494.8" font-family="Arial, &quot;Helvetica Neue&quot;, Helvetica, sans-serif" font-size="28"
+                      text-anchor="middle" dominant-baseline="central" fill="#000000" class="tuning tuning-2">2</text>
+                <text x="224" y="494.8" font-family="Arial, &quot;Helvetica Neue&quot;, Helvetica, sans-serif" font-size="28"
+                      text-anchor="middle" dominant-baseline="central" fill="#000000" class="tuning tuning-3"></text>
+                <text x="272" y="494.8" font-family="Arial, &quot;Helvetica Neue&quot;, Helvetica, sans-serif" font-size="28"
+                      text-anchor="middle" dominant-baseline="central" fill="#000000" class="tuning tuning-4">1</text>
+                <text x="320" y="494.8" font-family="Arial, &quot;Helvetica Neue&quot;, Helvetica, sans-serif" font-size="28"
+                      text-anchor="middle" dominant-baseline="central" fill="#000000" class="tuning tuning-5"></text>
+                <text x="200" y="521.1156685829162" font-family="Arial, &quot;Helvetica Neue&quot;, Helvetica, sans-serif"
+                      font-size="16" text-anchor="middle" fill="rgba(0, 0, 0, 0.5)" class="watermark">
+
+                </text>
+                <circle r="0" cx="0" cy="0" fill="none" stroke-width="0" stroke="transparent" class="top-left"></circle>
+                <circle r="0" cx="400" cy="0" fill="none" stroke-width="0" stroke="transparent" class="top-right"></circle>
+            </svg>
+        </div>
+        <div class="svg-container">
+            <div class="chord">
+                <h2>D</h2>
+                <i class="fas fa-volume-high speaker-icon" alt="Play D chord" onclick="playChord('D')"></i>
+                <audio id="audio-D" src="~/chord-music/D-major-guitar.wav" preload="auto"></audio>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xmlns:svgjs="http://svgjs.com/svgjs" preserveAspectRatio="xMidYMid meet"
+                 viewBox="0 0 400 554.3019927978515">
+
+                <line x1="65.6" y1="9.6" x2="94.39999999999999" y2="38.4" stroke-width="2" stroke="#000000"></line>
+                <line x1="65.6" y1="38.4" x2="94.39999999999999" y2="9.6" stroke-width="2" stroke="#000000"></line>
+                <circle r="14.399999999999999" cx="128" cy="24" fill="none" stroke-width="2" stroke="#000000"
+                        class="open-string open-string-1"></circle>
+                <circle r="14.399999999999999" cx="176" cy="24" fill="none" stroke-width="2" stroke="#000000"
+                        class="open-string open-string-2"></circle>
+                <line x1="79" y1="53" x2="321" y2="53" stroke-width="10" stroke="#000000"></line>
+                <line x1="80" y1="142" x2="320" y2="142" stroke-width="2" stroke="#000000"></line>
+                <line x1="80" y1="226" x2="320" y2="226" stroke-width="2" stroke="#000000"></line>
+                <line x1="80" y1="310" x2="320" y2="310" stroke-width="2" stroke="#000000"></line>
+                <line x1="80" y1="394" x2="320" y2="394" stroke-width="2" stroke="#000000"></line>
+                <line x1="80" y1="478" x2="320" y2="478" stroke-width="2" stroke="#000000"></line>
+                <line x1="80" y1="58" x2="80" y2="479" stroke-width="2" stroke="#000000"></line>
+                <line x1="128" y1="58" x2="128" y2="479" stroke-width="2" stroke="#000000"></line>
+                <line x1="176" y1="58" x2="176" y2="479" stroke-width="2" stroke="#000000"></line>
+                <line x1="224" y1="58" x2="224" y2="479" stroke-width="2" stroke="#000000"></line>
+                <line x1="272" y1="58" x2="272" y2="479" stroke-width="2" stroke="#000000"></line>
+                <line x1="320" y1="58" x2="320" y2="479" stroke-width="2" stroke="#000000"></line>
+                <circle r="15.600000000000001" cx="224" cy="184" fill="#000000" stroke-width="0" stroke="#000000"
+                        class="finger finger-string-3 finger-fret-1 finger-string-3-fret-1 finger-circle"></circle>
+                <circle r="15.600000000000001" cx="320" cy="184" fill="#000000" stroke-width="0" stroke="#000000"
+                        class="finger finger-string-5 finger-fret-1 finger-string-5-fret-1 finger-circle"></circle>
+                <circle r="15.600000000000001" cx="272" cy="268" fill="#000000" stroke-width="0" stroke="#000000"
+                        class="finger finger-string-4 finger-fret-2 finger-string-4-fret-2 finger-circle"></circle>
+                <text x="80"
+                      y="494.8" font-family="Arial, &quot;Helvetica Neue&quot;, Helvetica, sans-serif" font-size="28"
+                      text-anchor="middle" dominant-baseline="central" fill="#000000" class="tuning tuning-0"></text>
+                <text x="128" y="494.8" font-family="Arial, &quot;Helvetica Neue&quot;, Helvetica, sans-serif" font-size="28"
+                      text-anchor="middle" dominant-baseline="central" fill="#000000" class="tuning tuning-1"></text>
+                <text x="176" y="494.8" font-family="Arial, &quot;Helvetica Neue&quot;, Helvetica, sans-serif" font-size="28"
+                      text-anchor="middle" dominant-baseline="central" fill="#000000" class="tuning tuning-2"></text>
+                <text x="224" y="494.8" font-family="Arial, &quot;Helvetica Neue&quot;, Helvetica, sans-serif" font-size="28"
+                      text-anchor="middle" dominant-baseline="central" fill="#000000" class="tuning tuning-3">1</text>
+                <text x="272" y="494.8" font-family="Arial, &quot;Helvetica Neue&quot;, Helvetica, sans-serif" font-size="28"
+                      text-anchor="middle" dominant-baseline="central" fill="#000000" class="tuning tuning-4">3</text>
+                <text x="320" y="494.8" font-family="Arial, &quot;Helvetica Neue&quot;, Helvetica, sans-serif" font-size="28"
+                      text-anchor="middle" dominant-baseline="central" fill="#000000" class="tuning tuning-5">2</text>
+                <text x="200" y="521.1156685829162" font-family="Arial, &quot;Helvetica Neue&quot;, Helvetica, sans-serif"
+                      font-size="16" text-anchor="middle" fill="rgba(0, 0, 0, 0.5)" class="watermark">
+
+                </text>
+                <circle r="0" cx="0" cy="0" fill="none" stroke-width="0" stroke="transparent" class="top-left"></circle>
+                <circle r="0" cx="400" cy="0" fill="none" stroke-width="0" stroke="transparent" class="top-right"></circle>
+            </svg>
+        </div>
+        <div class="svg-container">
+            <div class="chord">
+                <h2>E</h2>
+                <i class="fas fa-volume-high speaker-icon" alt="Play E chord" onclick="playChord('E')"></i>
+                <audio id="audio-E" src="~/chord-music/E-major-guitar.wav" preload="auto"></audio>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xmlns:svgjs="http://svgjs.com/svgjs" preserveAspectRatio="xMidYMid meet"
+                 viewBox="0 0 400 554.3019927978515">
+
+                <circle r="14.399999999999999" cx="80" cy="24" fill="none" stroke-width="2" stroke="#000000"
+                        class="open-string open-string-0"></circle>
+                <circle r="14.399999999999999" cx="272" cy="24" fill="none" stroke-width="2" stroke="#000000"
+                        class="open-string open-string-4"></circle>
+                <circle r="14.399999999999999" cx="320" cy="24" fill="none" stroke-width="2" stroke="#000000"
+                        class="open-string open-string-5"></circle>
+                <line x1="79" y1="53" x2="321" y2="53" stroke-width="10" stroke="#000000"></line>
+                <line x1="80" y1="142" x2="320" y2="142" stroke-width="2" stroke="#000000"></line>
+                <line x1="80" y1="226" x2="320" y2="226" stroke-width="2" stroke="#000000"></line>
+                <line x1="80" y1="310" x2="320" y2="310" stroke-width="2" stroke="#000000"></line>
+                <line x1="80" y1="394" x2="320" y2="394" stroke-width="2" stroke="#000000"></line>
+                <line x1="80" y1="478" x2="320" y2="478" stroke-width="2" stroke="#000000"></line>
+                <line x1="80" y1="58" x2="80" y2="479" stroke-width="2" stroke="#000000"></line>
+                <line x1="128" y1="58" x2="128" y2="479" stroke-width="2" stroke="#000000"></line>
+                <line x1="176" y1="58" x2="176" y2="479" stroke-width="2" stroke="#000000"></line>
+                <line x1="224" y1="58" x2="224" y2="479" stroke-width="2" stroke="#000000"></line>
+                <line x1="272" y1="58" x2="272" y2="479" stroke-width="2" stroke="#000000"></line>
+                <line x1="320" y1="58" x2="320" y2="479" stroke-width="2" stroke="#000000"></line>
+                <circle r="15.600000000000001" cx="224" cy="100" fill="#000000" stroke-width="0" stroke="#000000"
+                        class="finger finger-string-3 finger-fret-0 finger-string-3-fret-0 finger-circle"></circle>
+                <circle r="15.600000000000001" cx="128" cy="184" fill="#000000" stroke-width="0" stroke="#000000"
+                        class="finger finger-string-1 finger-fret-1 finger-string-1-fret-1 finger-circle"></circle>
+                <circle r="15.600000000000001" cx="176" cy="184" fill="#000000" stroke-width="0" stroke="#000000"
+                        class="finger finger-string-2 finger-fret-1 finger-string-2-fret-1 finger-circle"></circle>
+                <text x="80"
+                      y="494.8" font-family="Arial, &quot;Helvetica Neue&quot;, Helvetica, sans-serif" font-size="28"
+                      text-anchor="middle" dominant-baseline="central" fill="#000000" class="tuning tuning-0"></text>
+                <text x="128" y="494.8" font-family="Arial, &quot;Helvetica Neue&quot;, Helvetica, sans-serif" font-size="28"
+                      text-anchor="middle" dominant-baseline="central" fill="#000000" class="tuning tuning-1">2</text>
+                <text x="176" y="494.8" font-family="Arial, &quot;Helvetica Neue&quot;, Helvetica, sans-serif" font-size="28"
+                      text-anchor="middle" dominant-baseline="central" fill="#000000" class="tuning tuning-2">3</text>
+                <text x="224" y="494.8" font-family="Arial, &quot;Helvetica Neue&quot;, Helvetica, sans-serif" font-size="28"
+                      text-anchor="middle" dominant-baseline="central" fill="#000000" class="tuning tuning-3">1</text>
+                <text x="272" y="494.8" font-family="Arial, &quot;Helvetica Neue&quot;, Helvetica, sans-serif" font-size="28"
+                      text-anchor="middle" dominant-baseline="central" fill="#000000" class="tuning tuning-4"></text>
+                <text x="320" y="494.8" font-family="Arial, &quot;Helvetica Neue&quot;, Helvetica, sans-serif" font-size="28"
+                      text-anchor="middle" dominant-baseline="central" fill="#000000" class="tuning tuning-5"></text>
+                <text x="200" y="521.1156685829162" font-family="Arial, &quot;Helvetica Neue&quot;, Helvetica, sans-serif"
+                      font-size="16" text-anchor="middle" fill="rgba(0, 0, 0, 0.5)" class="watermark">
+
+                </text>
+                <circle r="0" cx="0" cy="0" fill="none" stroke-width="0" stroke="transparent" class="top-left"></circle>
+                <circle r="0" cx="400" cy="0" fill="none" stroke-width="0" stroke="transparent" class="top-right"></circle>
+            </svg>
+        </div>
+        <div class="svg-container">
+            <div class="chord">
+                <h2>F</h2>
+                <i class="fas fa-volume-high speaker-icon" alt="Play F chord" onclick="playChord('F')"></i>
+                <audio id="audio-F" src="~/chord-music/F-major-guitar.wav" preload="auto"></audio>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xmlns:svgjs="http://svgjs.com/svgjs" preserveAspectRatio="xMidYMid meet"
+                 viewBox="0 0 400 554.3019927978515">
+
+                <line x1="65.6" y1="9.6" x2="94.39999999999999" y2="38.4" stroke-width="2" stroke="#000000"></line>
+                <line x1="65.6" y1="38.4" x2="94.39999999999999" y2="9.6" stroke-width="2" stroke="#000000"></line>
+                <line x1="79" y1="53" x2="321" y2="53" stroke-width="10" stroke="#000000"></line>
+                <line x1="80" y1="142" x2="320" y2="142" stroke-width="2" stroke="#000000"></line>
+                <line x1="80" y1="226" x2="320" y2="226" stroke-width="2" stroke="#000000"></line>
+                <line x1="80" y1="310" x2="320" y2="310" stroke-width="2" stroke="#000000"></line>
+                <line x1="80" y1="394" x2="320" y2="394" stroke-width="2" stroke="#000000"></line>
+                <line x1="80" y1="478" x2="320" y2="478" stroke-width="2" stroke="#000000"></line>
+                <line x1="80" y1="58" x2="80" y2="479" stroke-width="2" stroke="#000000"></line>
+                <line x1="128" y1="58" x2="128" y2="479" stroke-width="2" stroke="#000000"></line>
+                <line x1="176" y1="58" x2="176" y2="479" stroke-width="2" stroke="#000000"></line>
+                <line x1="224" y1="58" x2="224" y2="479" stroke-width="2" stroke="#000000"></line>
+                <line x1="272" y1="58" x2="272" y2="479" stroke-width="2" stroke="#000000"></line>
+                <line x1="320" y1="58" x2="320" y2="479" stroke-width="2" stroke="#000000"></line>
+                <circle r="15.600000000000001" cx="272" cy="100" fill="#000000" stroke-width="0" stroke="#000000"
+                        class="finger finger-string-4 finger-fret-0 finger-string-4-fret-0 finger-circle"></circle>
+                <circle r="15.600000000000001" cx="320" cy="100" fill="#000000" stroke-width="0" stroke="#000000"
+                        class="finger finger-string-5 finger-fret-0 finger-string-5-fret-0 finger-circle"></circle>
+                <circle r="15.600000000000001" cx="224" cy="184" fill="#000000" stroke-width="0" stroke="#000000"
+                        class="finger finger-string-3 finger-fret-1 finger-string-3-fret-1 finger-circle"></circle>
+                <circle r="15.600000000000001" cx="128" cy="268" fill="#000000" stroke-width="0" stroke="#000000"
+                        class="finger finger-string-1 finger-fret-2 finger-string-1-fret-2 finger-circle"></circle>
+                <circle r="15.600000000000001" cx="176" cy="268" fill="#000000" stroke-width="0" stroke="#000000"
+                        class="finger finger-string-2 finger-fret-2 finger-string-2-fret-2 finger-circle"></circle>
+                <text x="80"
+                      y="494.8" font-family="Arial, &quot;Helvetica Neue&quot;, Helvetica, sans-serif" font-size="28"
+                      text-anchor="middle" dominant-baseline="central" fill="#000000" class="tuning tuning-0"></text>
+                <text x="128" y="494.8" font-family="Arial, &quot;Helvetica Neue&quot;, Helvetica, sans-serif" font-size="28"
+                      text-anchor="middle" dominant-baseline="central" fill="#000000" class="tuning tuning-1"></text>
+                <text x="176" y="494.8" font-family="Arial, &quot;Helvetica Neue&quot;, Helvetica, sans-serif" font-size="28"
+                      text-anchor="middle" dominant-baseline="central" fill="#000000" class="tuning tuning-2">3</text>
+                <text x="224" y="494.8" font-family="Arial, &quot;Helvetica Neue&quot;, Helvetica, sans-serif" font-size="28"
+                      text-anchor="middle" dominant-baseline="central" fill="#000000" class="tuning tuning-3">2</text>
+                <text x="272" y="494.8" font-family="Arial, &quot;Helvetica Neue&quot;, Helvetica, sans-serif" font-size="28"
+                      text-anchor="middle" dominant-baseline="central" fill="#000000" class="tuning tuning-4">1</text>
+                <text x="320" y="494.8" font-family="Arial, &quot;Helvetica Neue&quot;, Helvetica, sans-serif" font-size="28"
+                      text-anchor="middle" dominant-baseline="central" fill="#000000" class="tuning tuning-5">1</text>
+                <text x="200" y="521.1156685829162" font-family="Arial, &quot;Helvetica Neue&quot;, Helvetica, sans-serif"
+                      font-size="16" text-anchor="middle" fill="rgba(0, 0, 0, 0.5)" class="watermark">
+
+                </text>
+                <circle r="0" cx="0" cy="0" fill="none" stroke-width="0" stroke="transparent" class="top-left"></circle>
+                <circle r="0" cx="400" cy="0" fill="none" stroke-width="0" stroke="transparent" class="top-right"></circle>
+            </svg>
+        </div>
+        <div class="svg-container">
+            <div class="chord">
+                <h2>G</h2>
+                <i class="fas fa-volume-high speaker-icon" alt="Play G chord" onclick="playChord('G')"></i>
+                <audio id="audio-G" src="~/chord-music/G-major-guitar.wav" preload="auto"></audio>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xmlns:svgjs="http://svgjs.com/svgjs" preserveAspectRatio="xMidYMid meet"
+                 viewBox="0 0 400 554.3019927978515">
+
+                <circle r="14.399999999999999" cx="176" cy="24" fill="none" stroke-width="2" stroke="#000000"
+                        class="open-string open-string-2"></circle>
+                <circle r="14.399999999999999" cx="224" cy="24" fill="none" stroke-width="2" stroke="#000000"
+                        class="open-string open-string-3"></circle>
+                <line x1="79" y1="53" x2="321" y2="53" stroke-width="10" stroke="#000000"></line>
+                <line x1="80" y1="142" x2="320" y2="142" stroke-width="2" stroke="#000000"></line>
+                <line x1="80" y1="226" x2="320" y2="226" stroke-width="2" stroke="#000000"></line>
+                <line x1="80" y1="310" x2="320" y2="310" stroke-width="2" stroke="#000000"></line>
+                <line x1="80" y1="394" x2="320" y2="394" stroke-width="2" stroke="#000000"></line>
+                <line x1="80" y1="478" x2="320" y2="478" stroke-width="2" stroke="#000000"></line>
+                <line x1="80" y1="58" x2="80" y2="479" stroke-width="2" stroke="#000000"></line>
+                <line x1="128" y1="58" x2="128" y2="479" stroke-width="2" stroke="#000000"></line>
+                <line x1="176" y1="58" x2="176" y2="479" stroke-width="2" stroke="#000000"></line>
+                <line x1="224" y1="58" x2="224" y2="479" stroke-width="2" stroke="#000000"></line>
+                <line x1="272" y1="58" x2="272" y2="479" stroke-width="2" stroke="#000000"></line>
+                <line x1="320" y1="58" x2="320" y2="479" stroke-width="2" stroke="#000000"></line>
+                <circle r="15.600000000000001" cx="128" cy="184" fill="#000000" stroke-width="0" stroke="#000000"
+                        class="finger finger-string-1 finger-fret-1 finger-string-1-fret-1 finger-circle"></circle>
+                <circle r="15.600000000000001" cx="80" cy="268" fill="#000000" stroke-width="0" stroke="#000000"
+                        class="finger finger-string-0 finger-fret-2 finger-string-0-fret-2 finger-circle"></circle>
+                <circle r="15.600000000000001" cx="272" cy="268" fill="#000000" stroke-width="0" stroke="#000000"
+                        class="finger finger-string-4 finger-fret-2 finger-string-4-fret-2 finger-circle"></circle>
+                <circle r="15.600000000000001" cx="320" cy="268" fill="#000000" stroke-width="0" stroke="#000000"
+                        class="finger finger-string-5 finger-fret-2 finger-string-5-fret-2 finger-circle"></circle>
+                <text x="80"
+                      y="494.8" font-family="Arial, &quot;Helvetica Neue&quot;, Helvetica, sans-serif" font-size="28"
+                      text-anchor="middle" dominant-baseline="central" fill="#000000" class="tuning tuning-0">2</text>
+                <text x="128" y="494.8" font-family="Arial, &quot;Helvetica Neue&quot;, Helvetica, sans-serif" font-size="28"
+                      text-anchor="middle" dominant-baseline="central" fill="#000000" class="tuning tuning-1">1</text>
+                <text x="176" y="494.8" font-family="Arial, &quot;Helvetica Neue&quot;, Helvetica, sans-serif" font-size="28"
+                      text-anchor="middle" dominant-baseline="central" fill="#000000" class="tuning tuning-2"></text>
+                <text x="224" y="494.8" font-family="Arial, &quot;Helvetica Neue&quot;, Helvetica, sans-serif" font-size="28"
+                      text-anchor="middle" dominant-baseline="central" fill="#000000" class="tuning tuning-3"></text>
+                <text x="272" y="494.8" font-family="Arial, &quot;Helvetica Neue&quot;, Helvetica, sans-serif" font-size="28"
+                      text-anchor="middle" dominant-baseline="central" fill="#000000" class="tuning tuning-4"></text>
+                <text x="320" y="494.8" font-family="Arial, &quot;Helvetica Neue&quot;, Helvetica, sans-serif" font-size="28"
+                      text-anchor="middle" dominant-baseline="central" fill="#000000" class="tuning tuning-5">3</text>
+                <text x="200" y="521.1156685829162" font-family="Arial, &quot;Helvetica Neue&quot;, Helvetica, sans-serif"
+                      font-size="16" text-anchor="middle" fill="rgba(0, 0, 0, 0.5)" class="watermark">
+
+                </text>
+                <circle r="0" cx="0" cy="0" fill="none" stroke-width="0" stroke="transparent" class="top-left"></circle>
+                <circle r="0" cx="400" cy="0" fill="none" stroke-width="0" stroke="transparent" class="top-right"></circle>
+            </svg>
+        </div>
+        <div class="svg-container">
+            <div class="chord">
+                <h2>A</h2>
+                <i class="fas fa-volume-high speaker-icon" alt="Play A chord" onclick="playChord('A')"></i>
+                <audio id="audio-A" src="~/chord-music/A-major-guitar.wav" preload="auto"></audio>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xmlns:svgjs="http://svgjs.com/svgjs" preserveAspectRatio="xMidYMid meet"
+                 viewBox="0 0 400 554.3019927978515">
+
+                <circle r="14.399999999999999" cx="80" cy="24" fill="none" stroke-width="2" stroke="#000000"
+                        class="open-string open-string-0"></circle>
+                <circle r="14.399999999999999" cx="128" cy="24" fill="none" stroke-width="2" stroke="#000000"
+                        class="open-string open-string-1"></circle>
+                <circle r="14.399999999999999" cx="320" cy="24" fill="none" stroke-width="2" stroke="#000000"
+                        class="open-string open-string-5"></circle>
+                <line x1="79" y1="53" x2="321" y2="53" stroke-width="10" stroke="#000000"></line>
+                <line x1="80" y1="142" x2="320" y2="142" stroke-width="2" stroke="#000000"></line>
+                <line x1="80" y1="226" x2="320" y2="226" stroke-width="2" stroke="#000000"></line>
+                <line x1="80" y1="310" x2="320" y2="310" stroke-width="2" stroke="#000000"></line>
+                <line x1="80" y1="394" x2="320" y2="394" stroke-width="2" stroke="#000000"></line>
+                <line x1="80" y1="478" x2="320" y2="478" stroke-width="2" stroke="#000000"></line>
+                <line x1="80" y1="58" x2="80" y2="479" stroke-width="2" stroke="#000000"></line>
+                <line x1="128" y1="58" x2="128" y2="479" stroke-width="2" stroke="#000000"></line>
+                <line x1="176" y1="58" x2="176" y2="479" stroke-width="2" stroke="#000000"></line>
+                <line x1="224" y1="58" x2="224" y2="479" stroke-width="2" stroke="#000000"></line>
+                <line x1="272" y1="58" x2="272" y2="479" stroke-width="2" stroke="#000000"></line>
+                <line x1="320" y1="58" x2="320" y2="479" stroke-width="2" stroke="#000000"></line>
+                <circle r="15.600000000000001" cx="176" cy="184" fill="#000000" stroke-width="0" stroke="#000000"
+                        class="finger finger-string-2 finger-fret-1 finger-string-2-fret-1 finger-circle"></circle>
+                <circle r="15.600000000000001" cx="224" cy="184" fill="#000000" stroke-width="0" stroke="#000000"
+                        class="finger finger-string-3 finger-fret-1 finger-string-3-fret-1 finger-circle"></circle>
+                <circle r="15.600000000000001" cx="272" cy="184" fill="#000000" stroke-width="0" stroke="#000000"
+                        class="finger finger-string-4 finger-fret-1 finger-string-4-fret-1 finger-circle"></circle>
+                <text x="80"
+                      y="494.8" font-family="Arial, &quot;Helvetica Neue&quot;, Helvetica, sans-serif" font-size="28"
+                      text-anchor="middle" dominant-baseline="central" fill="#000000" class="tuning tuning-0"></text>
+                <text x="128" y="494.8" font-family="Arial, &quot;Helvetica Neue&quot;, Helvetica, sans-serif" font-size="28"
+                      text-anchor="middle" dominant-baseline="central" fill="#000000" class="tuning tuning-1"></text>
+                <text x="176" y="494.8" font-family="Arial, &quot;Helvetica Neue&quot;, Helvetica, sans-serif" font-size="28"
+                      text-anchor="middle" dominant-baseline="central" fill="#000000" class="tuning tuning-2">1</text>
+                <text x="224" y="494.8" font-family="Arial, &quot;Helvetica Neue&quot;, Helvetica, sans-serif" font-size="28"
+                      text-anchor="middle" dominant-baseline="central" fill="#000000" class="tuning tuning-3">2</text>
+                <text x="272" y="494.8" font-family="Arial, &quot;Helvetica Neue&quot;, Helvetica, sans-serif" font-size="28"
+                      text-anchor="middle" dominant-baseline="central" fill="#000000" class="tuning tuning-4">3</text>
+                <text x="320" y="494.8" font-family="Arial, &quot;Helvetica Neue&quot;, Helvetica, sans-serif" font-size="28"
+                      text-anchor="middle" dominant-baseline="central" fill="#000000" class="tuning tuning-5"></text>
+                <text x="200" y="521.1156685829162" font-family="Arial, &quot;Helvetica Neue&quot;, Helvetica, sans-serif"
+                      font-size="16" text-anchor="middle" fill="rgba(0, 0, 0, 0.5)" class="watermark">
+
+                </text>
+                <circle r="0" cx="0" cy="0" fill="none" stroke-width="0" stroke="transparent" class="top-left"></circle>
+                <circle r="0" cx="400" cy="0" fill="none" stroke-width="0" stroke="transparent" class="top-right"></circle>
+            </svg>
+        </div>
+        <div class="svg-container">
+            <div class="chord">
+                <h2>B</h2>
+                <i class="fas fa-volume-high speaker-icon" alt="Play B chord" onclick="playChord('B')"></i>
+                <audio id="audio-B" src="~/chord-music/B-major-guitar.wav" preload="auto"></audio>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xmlns:svgjs="http://svgjs.com/svgjs" preserveAspectRatio="xMidYMid meet"
+                 viewBox="0 0 400 554.3019927978515">
+
+                <line x1="65.6" y1="9.6" x2="94.39999999999999" y2="38.4" stroke-width="2" stroke="#000000"></line>
+                <line x1="65.6" y1="38.4" x2="94.39999999999999" y2="9.6" stroke-width="2" stroke="#000000"></line>
+                <line x1="113.6" y1="9.6" x2="142.39999999999998" y2="38.4" stroke-width="2" stroke="#000000"></line>
+                <line x1="113.6" y1="38.4" x2="142.39999999999998" y2="9.6" stroke-width="2" stroke="#000000"></line>
+                <line x1="79" y1="53" x2="321" y2="53" stroke-width="10" stroke="#000000"></line>
+                <line x1="80" y1="142" x2="320" y2="142" stroke-width="2" stroke="#000000"></line>
+                <line x1="80" y1="226" x2="320" y2="226" stroke-width="2" stroke="#000000"></line>
+                <line x1="80" y1="310" x2="320" y2="310" stroke-width="2" stroke="#000000"></line>
+                <line x1="80" y1="394" x2="320" y2="394" stroke-width="2" stroke="#000000"></line>
+                <line x1="80" y1="478" x2="320" y2="478" stroke-width="2" stroke="#000000"></line>
+                <line x1="80" y1="58" x2="80" y2="479" stroke-width="2" stroke="#000000"></line>
+                <line x1="128" y1="58" x2="128" y2="479" stroke-width="2" stroke="#000000"></line>
+                <line x1="176" y1="58" x2="176" y2="479" stroke-width="2" stroke="#000000"></line>
+                <line x1="224" y1="58" x2="224" y2="479" stroke-width="2" stroke="#000000"></line>
+                <line x1="272" y1="58" x2="272" y2="479" stroke-width="2" stroke="#000000"></line>
+                <line x1="320" y1="58" x2="320" y2="479" stroke-width="2" stroke="#000000"></line>
+                <circle r="15.600000000000001" cx="320" cy="184" fill="#000000" stroke-width="0" stroke="#000000"
+                        class="finger finger-string-5 finger-fret-1 finger-string-5-fret-1 finger-circle"></circle>
+                <circle r="15.600000000000001" cx="176" cy="352" fill="#000000" stroke-width="0" stroke="#000000"
+                        class="finger finger-string-2 finger-fret-3 finger-string-2-fret-3 finger-circle"></circle>
+                <circle r="15.600000000000001" cx="224" cy="352" fill="#000000" stroke-width="0" stroke="#000000"
+                        class="finger finger-string-3 finger-fret-3 finger-string-3-fret-3 finger-circle"></circle>
+                <circle r="15.600000000000001" cx="272" cy="352" fill="#000000" stroke-width="0" stroke="#000000"
+                        class="finger finger-string-4 finger-fret-3 finger-string-4-fret-3 finger-circle"></circle>
+                <text x="80"
+                      y="494.8" font-family="Arial, &quot;Helvetica Neue&quot;, Helvetica, sans-serif" font-size="28"
+                      text-anchor="middle" dominant-baseline="central" fill="#000000" class="tuning tuning-0"></text>
+                <text x="128" y="494.8" font-family="Arial, &quot;Helvetica Neue&quot;, Helvetica, sans-serif" font-size="28"
+                      text-anchor="middle" dominant-baseline="central" fill="#000000" class="tuning tuning-1"></text>
+                <text x="176" y="494.8" font-family="Arial, &quot;Helvetica Neue&quot;, Helvetica, sans-serif" font-size="28"
+                      text-anchor="middle" dominant-baseline="central" fill="#000000" class="tuning tuning-2">2</text>
+                <text x="224" y="494.8" font-family="Arial, &quot;Helvetica Neue&quot;, Helvetica, sans-serif" font-size="28"
+                      text-anchor="middle" dominant-baseline="central" fill="#000000" class="tuning tuning-3">3</text>
+                <text x="272" y="494.8" font-family="Arial, &quot;Helvetica Neue&quot;, Helvetica, sans-serif" font-size="28"
+                      text-anchor="middle" dominant-baseline="central" fill="#000000" class="tuning tuning-4">4</text>
+                <text x="320" y="494.8" font-family="Arial, &quot;Helvetica Neue&quot;, Helvetica, sans-serif" font-size="28"
+                      text-anchor="middle" dominant-baseline="central" fill="#000000" class="tuning tuning-5">1</text>
+                <text x="200" y="521.1156685829162" font-family="Arial, &quot;Helvetica Neue&quot;, Helvetica, sans-serif"
+                      font-size="16" text-anchor="middle" fill="rgba(0, 0, 0, 0.5)" class="watermark">
+
+                </text>
+                <circle r="0" cx="0" cy="0" fill="none" stroke-width="0" stroke="transparent" class="top-left"></circle>
+                <circle r="0" cx="400" cy="0" fill="none" stroke-width="0" stroke="transparent" class="top-right"></circle>
+            </svg>
+        </div>
+    </div>
+    <script>
+        function playChord(chordName) {
+            var audioElement = document.getElementById('audio-' + chordName);
+            if (audioElement) {
+                audioElement.play();
+            }
+        }
+    </script>
+</body>
+
+</html>
