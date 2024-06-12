@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\TrainCode\\WebChord\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C7D38E84-A96B-485D-959F-84386EB2B170}|WebChord\\WebChord.csproj|d:\\traincode\\webchord\\webchord\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C7D38E84-A96B-485D-959F-84386EB2B170}|WebChord\\WebChord.csproj|solutionrelative:webchord\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7D38E84-A96B-485D-959F-84386EB2B170}|WebChord\\WebChord.csproj|d:\\traincode\\webchord\\webchord\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7D38E84-A96B-485D-959F-84386EB2B170}|WebChord\\WebChord.csproj|solutionrelative:webchord\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7D38E84-A96B-485D-959F-84386EB2B170}|WebChord\\WebChord.csproj|d:\\traincode\\webchord\\webchord\\views\\baiviet\\chitiet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C7D38E84-A96B-485D-959F-84386EB2B170}|WebChord\\WebChord.csproj|solutionrelative:webchord\\views\\baiviet\\chitiet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7D38E84-A96B-485D-959F-84386EB2B170}|WebChord\\WebChord.csproj|d:\\traincode\\webchord\\webchord\\controllers\\baivietcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7D38E84-A96B-485D-959F-84386EB2B170}|WebChord\\WebChord.csproj|solutionrelative:webchord\\controllers\\baivietcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7D38E84-A96B-485D-959F-84386EB2B170}|WebChord\\WebChord.csproj|d:\\traincode\\webchord\\webchord\\viewmodels\\songdetailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7D38E84-A96B-485D-959F-84386EB2B170}|WebChord\\WebChord.csproj|solutionrelative:webchord\\viewmodels\\songdetailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\TrainCode\\WebChord\\WebChord\\appsettings.json",
+              "RelativeDocumentMoniker": "WebChord\\appsettings.json",
+              "ToolTip": "D:\\TrainCode\\WebChord\\WebChord\\appsettings.json",
+              "RelativeToolTip": "WebChord\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-12T07:14:29.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\TrainCode\\WebChord\\WebChord\\Program.cs",
+              "RelativeDocumentMoniker": "WebChord\\Program.cs",
+              "ToolTip": "D:\\TrainCode\\WebChord\\WebChord\\Program.cs",
+              "RelativeToolTip": "WebChord\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T07:14:28.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SongDetailViewModel.cs",
+              "DocumentMoniker": "D:\\TrainCode\\WebChord\\WebChord\\ViewModels\\SongDetailViewModel.cs",
+              "RelativeDocumentMoniker": "WebChord\\ViewModels\\SongDetailViewModel.cs",
+              "ToolTip": "D:\\TrainCode\\WebChord\\WebChord\\ViewModels\\SongDetailViewModel.cs",
+              "RelativeToolTip": "WebChord\\ViewModels\\SongDetailViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T18:23:04.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BaiVietController.cs",
+              "DocumentMoniker": "D:\\TrainCode\\WebChord\\WebChord\\Controllers\\BaiVietController.cs",
+              "RelativeDocumentMoniker": "WebChord\\Controllers\\BaiVietController.cs",
+              "ToolTip": "D:\\TrainCode\\WebChord\\WebChord\\Controllers\\BaiVietController.cs",
+              "RelativeToolTip": "WebChord\\Controllers\\BaiVietController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T18:21:31.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ChiTiet.cshtml",
+              "DocumentMoniker": "D:\\TrainCode\\WebChord\\WebChord\\Views\\BaiViet\\ChiTiet.cshtml",
+              "RelativeDocumentMoniker": "WebChord\\Views\\BaiViet\\ChiTiet.cshtml",
+              "ToolTip": "D:\\TrainCode\\WebChord\\WebChord\\Views\\BaiViet\\ChiTiet.cshtml",
+              "RelativeToolTip": "WebChord\\Views\\BaiViet\\ChiTiet.cshtml",
+              "ViewState": "AQIAABgBAAAAAAAAAAAswCUBAABoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-11T17:11:21.353Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
